@@ -53,7 +53,7 @@ function uploadFile (imageURI) {
     options.mimeType="image/jpeg";
     options.chunkedMode = false;
 
-    var server = encodeURI('https://touristmapserver.herokuapp.com/upload');
+    var server = encodeURI('https://www.ricksphp.com');
 
     // Transfer picture to server
     var ft = new FileTransfer();
