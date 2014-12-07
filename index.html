@@ -1,23 +1,27 @@
-<!--
-https://touristmapserver.herokuapp.com/upload
--->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Capture Photo</title>
-    <link rel="stylesheet" href="css/foundation.min.css"/>
-    <script type="text/javascript" src="cordova.js"></script>
+    <title>Capture and Display Photo</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/jquery.mobile.min.css">
+	
+	<script src="cordova.js"></script>
+    
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
 </head>
 <body>
     <div id="status"></div>
     <div class="row">
         <div class="large-6 column">
-            <button onclick="capturePhoto();">Capture Photo</button>
+            <button onClick="capturePhoto();">Capture Photo</button>
         </div>
         <div class="large-6 column">
-            <button onclick="openPhoto();">From Photo Library</button>
+            <button onClick="openPhoto();">From Photo Library</button>
         </div>
     </div>
 
