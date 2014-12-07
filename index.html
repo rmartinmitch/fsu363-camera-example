@@ -12,12 +12,14 @@
     
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.mobile.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script src="js/index.js"></script>
     
 
     <style type="text/css">
 <!--
-button {
+
+.photoB {
+	font-weight: bold;
 	background-color: #FFFF99;
 	border-top-color: #FF0000;
 	border-right-color: #FF0000;
@@ -33,7 +35,7 @@ button {
 <div data-role="page" data-theme="a">
 
   <div data-role="header" >
-    <h1>Camera Caputure</h1>
+    <h1>Camera Capture</h1>
   </div>
 
   <div data-role=content>
@@ -41,10 +43,10 @@ button {
 
     <div id="status"></div>
     <div class="row">
-        <div class="large-6 column">
+        <div class="photoB">
             <button onClick="capturePhoto();">Capture Photo</button>
         </div>
-        <div class="large-6 column">
+        <div class="photoB">
             <button onClick="openPhoto();">From Photo Library</button>
         </div>
     </div>
